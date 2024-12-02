@@ -1,0 +1,50 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header .inner {
+    max-width: 1410px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header .inner .gnb {
+    display: block;
+    flex: 1;
+    text-align: center;
+}
+
+.header .inner .gnb ul>li {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline;
+    margin: 24px;
+}
+
+.header .inner .gnb .txt {
+    display: block;
+    gap: 40px;
+}
+
+.hader .inner .utils {
+    position: absolute;
+
+}
+
+.header .utils::before {
+    content: "";
+    top: 54px;
+    right: 66px;
+    width: 1px;
+    height: 14px;
+    border-right: 1px solid #ddd;
+
+
+}
